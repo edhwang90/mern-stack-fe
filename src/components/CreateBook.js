@@ -23,7 +23,7 @@ class CreateBook extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-
+    
     const data = {
       title: this.state.title,
       isbn: this.state.isbn,
